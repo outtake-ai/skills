@@ -1,0 +1,32 @@
+{
+  "name": "outtake-flash",
+  "version": "1.0.0",
+  "description": "Check unfamiliar links for scams and phishing before your agent opens them, signs in, or pays. Adds the Outtake Flash MCP server and the outtake-flash skill.",
+  "author": {
+    "name": "Outtake",
+    "email": "support@outtake.ai",
+    "url": "https://outtake.ai"
+  },
+  "homepage": "https://flash.outtake.ai/connect?utm_source=codex_plugin",
+  "repository": "https://github.com/outtake-ai/skills",
+  "license": "MIT",
+  "keywords": ["security", "phishing", "scam", "url", "link-check", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Outtake Flash",
+    "shortDescription": "Check links before opening",
+    "longDescription": "Outtake Flash checks an unfamiliar link before your agent opens it, signs in, or pays, and returns a verdict with evidence. The plugin connects the Flash MCP server and adds a skill that says when to scan and how to act on each verdict.",
+    "developerName": "Outtake",
+    "category": "Security",
+    "capabilities": [],
+    "websiteURL": "https://flash.outtake.ai/connect?utm_source=codex_plugin",
+    "supportURL": "https://flash.outtake.ai/connect?utm_source=codex_plugin",
+    "privacyPolicyURL": "https://flash.outtake.ai/privacy",
+    "termsOfServiceURL": "https://flash.outtake.ai/terms",
+    "defaultPrompt": ["Check whether this link is safe before I open it"],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

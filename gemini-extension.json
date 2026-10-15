@@ -1,0 +1,13 @@
+{
+  "name": "outtake-flash",
+  "version": "1.0.0",
+  "description": "Check unfamiliar links for scams and phishing before your agent opens them, signs in, or pays. Adds the Outtake Flash MCP server and the outtake-flash skill.",
+  "mcpServers": {
+    "flash": {
+      "httpUrl": "https://armor.outtake.ai/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

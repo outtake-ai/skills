@@ -1,0 +1,17 @@
+{
+  "name": "outtake",
+  "owner": {
+    "name": "Outtake",
+    "email": "support@outtake.ai"
+  },
+  "metadata": {
+    "description": "Outtake agent plugins."
+  },
+  "plugins": [
+    {
+      "name": "outtake-flash",
+      "source": "plugins/outtake-flash",
+      "description": "Check unfamiliar links for scams and phishing before your agent opens them, signs in, or pays. Adds the Outtake Flash MCP server and the outtake-flash skill."
+    }
+  ]
+}

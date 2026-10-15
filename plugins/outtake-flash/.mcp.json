@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flash": {
+      "type": "http",
+      "url": "https://armor.outtake.ai/mcp"
+    }
+  }
+}

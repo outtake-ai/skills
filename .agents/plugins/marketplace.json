@@ -1,0 +1,20 @@
+{
+  "name": "outtake",
+  "interface": {
+    "displayName": "Outtake"
+  },
+  "plugins": [
+    {
+      "name": "outtake-flash",
+      "source": {
+        "source": "local",
+        "path": "./plugins/outtake-flash"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    }
+  ]
+}

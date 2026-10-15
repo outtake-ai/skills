@@ -1,0 +1,18 @@
+{
+  "name": "outtake-flash",
+  "displayName": "Outtake Flash",
+  "version": "1.0.0",
+  "description": "Check unfamiliar links for scams and phishing before your agent opens them, signs in, or pays. Adds the Outtake Flash MCP server and the outtake-flash skill.",
+  "author": {
+    "name": "Outtake",
+    "email": "support@outtake.ai"
+  },
+  "homepage": "https://flash.outtake.ai/connect?utm_source=cursor_plugin",
+  "repository": "https://github.com/outtake-ai/skills",
+  "license": "MIT",
+  "logo": "assets/icon.png",
+  "keywords": ["security", "phishing", "scam", "url", "link-check", "mcp"],
+  "category": "security",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
